@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <div className="ml-2 mr-2">
-      <BrowserRouter>
+      <BrowserRouter basename="/project-board/">
       <App/>
         <Routes>
           <Route path="/" element={<Header />}>
